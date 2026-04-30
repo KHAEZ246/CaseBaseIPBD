@@ -1,0 +1,37 @@
+# 1. File Rahasia & Kredensial (SANGAT PENTING)
+# Jangan sampai API Key TomTom atau password database bocor!
+.env
+
+# 2. Folder Data Hasil Scraping
+# Kita hanya ingin membagikan 'rumus' (kode) ke GitHub, bukan 'hasil' (data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# 3. Catatan & Log Airflow (Wajib diabaikan agar tidak numpuk)
+logs/
+airflow-webserver.pid
+airflow.db
+
+# 4. File Sampah & Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# 5. Virtual Environment Lokal
+# Berjaga-jaga jika kamu atau temanmu membuat env Python di luar Docker
+venv/
+.venv/
+env/
+
+# 6. Pengaturan Text Editor Pribadi (VS Code / PyCharm)
+# Biar settingan warna atau font VS Code milikmu tidak tertular ke temanmu
+.vscode/
+.idea/
+
+# 7. File Sistem Operasi (Mac & Windows)
+.DS_Store
+Thumbs.db
