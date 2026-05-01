@@ -2,13 +2,6 @@
 # Jangan sampai API Key TomTom atau password database bocor!
 .env
 
-# 2. Folder Data Hasil Scraping
-# Kita hanya ingin membagikan 'rumus' (kode) ke GitHub, bukan 'hasil' (data)
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-
 # 3. Catatan & Log Airflow (Wajib diabaikan agar tidak numpuk)
 logs/
 airflow-webserver.pid
