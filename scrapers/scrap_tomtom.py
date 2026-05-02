@@ -15,11 +15,8 @@ LOCATIONS = [
     {"name": "Node_Warkop_Kusuma",                  "lat": -7.7073187,  "lon": 110.8379588},
 
     # Slamet Riyadi
-    {"name": "Node_SlametRiyadi_NeoGrandmall",       "lat": -7.5654401,  "lon": 110.8064080},
     {"name": "Node_SlametRiyadi_ODDSnGETSEE",        "lat": -7.5684313,  "lon": 110.8161152},
     {"name": "Node_SlametRiyadi_IkanGorengCianjur",  "lat": -7.5698850,  "lon": 110.8208305},
-    {"name": "Node_SlametRiyadi_SMPBintangLaut",     "lat": -7.5706614,  "lon": 110.8234236},
-    {"name": "Node_SlametRiyadi_DepanRutan",         "lat": -7.5716870,  "lon": 110.8267743},
     {"name": "Node_SlametRiyadi_BalaiKota",          "lat": -7.5710699,  "lon": 110.8298126},
 
     # Mangkunegara
@@ -34,7 +31,6 @@ LOCATIONS = [
     # Jl. Solo - Wonogiri
     {"name": "Node_SoloWonogiri_Disdukcapil",        "lat": -7.6630165,  "lon": 110.8361118},
     {"name": "Node_SoloWonogiri_Univet",             "lat": -7.6660685,  "lon": 110.8383185},
-    {"name": "Node_SoloWonogiri_Heika",              "lat": -7.6692119,  "lon": 110.8379605},
     {"name": "Node_SoloWonogiri_RumahDinas",         "lat": -7.6812371,  "lon": 110.8422963},
     {"name": "Node_SoloWonogiri_AlunAlunSukoharjo",  "lat": -7.6823489,  "lon": 110.8407895},
 
